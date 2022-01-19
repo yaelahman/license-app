@@ -56,6 +56,7 @@ class HomeController extends Controller
         ];
 
         return view('auth.profile', $data);
+        // 
     }
 
     public function updateProfile(Request $request, $id)
